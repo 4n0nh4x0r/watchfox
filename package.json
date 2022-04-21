@@ -1,0 +1,16 @@
+{
+  "name": "watchfox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "4n0nh4x0r",
+  "license": "MIT",
+  "homepage": "https://github.com/owner/project#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  }
+}
