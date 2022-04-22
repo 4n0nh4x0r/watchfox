@@ -1,5 +1,6 @@
 # WatchFox
-Watchfox is a system that is supposed to be used as a discord server watchdog, but as fox
+Watchfox is a system that is supposed to be used as a discord server watchdog, but as fox  
+Reporting users is being done via my website: [watchfox.kitsunes.eu](https://watchfox.kitsunes.eu)
 
 
 ## Installation
@@ -11,7 +12,7 @@ npm i watchfox
 ```
 
 ## Usage
-
+You first need to request an api key from [watchfox.kitsunes.eu/Documentation.html](https://watchfox.kitsunes.eu/Documentation.html)
 ```javascript
 const watchfox = require("watchfox")
 
