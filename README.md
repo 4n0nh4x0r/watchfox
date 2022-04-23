@@ -29,10 +29,12 @@ You will get this json object as response
     "score": [
       100, // Troll
       100, // Raider
-      80   // Harasser
+      80,  // Harasser
+      10   // Scammer
     ],
     "flags": [
-      "Possibly Harasser"
+      "Possibly Harasser",
+      "Definatly Scammer"
     ]
   }
 }
