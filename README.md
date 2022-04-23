@@ -34,7 +34,7 @@ You will get this json object as response
     ],
     "flags": [
       "Possibly Harasser",
-      "Definatly Scammer"
+      "Definately Scammer"
     ]
   }
 }
