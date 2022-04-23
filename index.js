@@ -1,6 +1,6 @@
 const https = require("http")
 
-module.exports = class userdb{
+module.exports = class watchfox{
     #token // Private Field
     constructor(token){
         if(token && token.trim() != ""){
@@ -19,9 +19,10 @@ module.exports = class userdb{
         return new Promise(async resolve => {
             if(!this.#token)
                 resolve("You need to specify your token in the constructor")
-            if(userid == undefined || userid.length < 18 || userid.length > 20){
+            if(userid == undefined || userid.length < 16 || userid.length > 20){
                 resolve("You need to supply a valid user id")
             }
+            // // https://watchfox.kitsunes.eu:2544/dataHandling?function=get_score&token=${this.#token}&userid=${userid}
             const options = {
                 hostname: 'watchfox.kitsunes.eu',
                 port:2544,
